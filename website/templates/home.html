@@ -1,21 +1,18 @@
 {% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
 %}
 <h1 align="center">Add Shirt</h1>
+<br>
 <form method="POST">
     <label>Item Description 👕</label>
-    <br></br>
-    <input name="description" size="50" type="text" />
+    <input class="input-group input-group-sm mb-3" name="description" type="text" />
     <label>Flaws 🧵</label>
-    <br></br>
-    <input name="flaws" size="50" type="text" />
+    <input class="input-group input-group-sm mb-3" name="flaws" type="text" />
     <label>Size 🏷️</label>
-    <br></br>
-    <input name="size" size="50" type="text" />
+    <input class="input-group input-group-sm mb-3" name="size" type="text" />
     <label>Measurements 📐</label>
-    <br></br>
-    <input name="measurements" size="50" type="text" />
-    <br />
-    <div align="center">
+    <input class="input-group input-group-sm mb-3" name="measurements" type="text" />
+    <br>
+    <div>
         <button type="submit" class="btn btn-primary">Add Shirt</button>
     </div>
 </form>
